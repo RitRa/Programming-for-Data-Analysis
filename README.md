@@ -16,11 +16,14 @@ After your project has been cloned, open your project with Visual Studio Code.
 Add a new file and commit changes
 
 You maybe be required to give your email address
-```
-git config --global user.email "email@example.com"
-```
 
-
+```
+git config user.email "email@example.com"
+```
+To see the new file in your github, type
+```
+git push
+```
 
 2. Install Anaconda or update to latest version
 
@@ -32,12 +35,17 @@ Updating the package Manager
 ```
 conda update conda
 ```
+Update Anaconda
+```
+conda update anaconda
+```
+More info
 ```
 conda info
 ```
 2. Update Visual Studio Code
 
-3. Open Jupyter Notebook using terminal
+3. Open Jupyter Notebook using terminal (Jupyter comes with Anaconda)
 ```
 jupyter notebook
 ```
