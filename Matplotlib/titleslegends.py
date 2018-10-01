@@ -1,5 +1,3 @@
-# Rita Raher 28/09/2018
-# matplotlib examples
 import matplotlib.pyplot as plt
 import numpy as np
 
