@@ -33,3 +33,4 @@ plt.plot(x, y +noise, 'c.')
 plt.plot(x, y, 'g-')
 
 plt.show()
+
