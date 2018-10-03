@@ -11,3 +11,4 @@ plt.plot(x, 2**x, 'k-', label="2^x")
 plt.legend()
 
 plt.show()
+
