@@ -1,5 +1,5 @@
 import matplotlib.pyplot as plt
-
+import numpy as np
 
 plt.plot([1, 2, 3, 4])
 plt.ylabel('some numbers')
@@ -16,7 +16,6 @@ plt.ylabel('some numbers')
 
 plt.show()
 
-import numpy as np
 
 x = np.arange(0.0, 10.0, 0.01)
 y = 3.0 * x + 1.0
@@ -29,8 +28,10 @@ plt.plot(x, y, 'b-')
 plt.show()
 
 
-plt.plot(x, y +noise, 'c.')
+plt.plot(x, y + noise, 'c.')
 plt.plot(x, y, 'g-')
 
 plt.show()
+
+
 

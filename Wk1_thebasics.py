@@ -17,11 +17,7 @@ else:
 
 print("Thanks for checking if it's Tuesday!")
 
-
-
-# While loops
-# greatest common divisor
-
+# While loops greatest common divisor
 a = 50 
 b = 20 
 # runs over and over while the condition is true
@@ -30,7 +26,7 @@ while b > 0:
 print(a)
 
 # for loops
-l = [0,1,2,3,4,5,6,7,8,9]
+l = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 
 for i in l:
     print(i, i*i)

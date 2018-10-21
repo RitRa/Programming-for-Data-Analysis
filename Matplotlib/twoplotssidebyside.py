@@ -10,5 +10,4 @@ plt.subplot(1, 2, 2)
 x = np.random.uniform(0.0, 1.0, 1000)
 
 plt.hist(x)
-
 plt.show()

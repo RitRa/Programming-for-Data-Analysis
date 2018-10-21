@@ -13,3 +13,4 @@ plt.title("Simple plot")
 plt.xlabel("")
 
 plt.show()
+
